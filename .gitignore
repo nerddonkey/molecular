@@ -32,4 +32,7 @@
 *.dSYM/
 *.ipy*
 *.ipynb
+*.png
+*.py
+!snapshot.png
 !molecular-development.ipynb
