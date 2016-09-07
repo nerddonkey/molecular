@@ -36,3 +36,4 @@
 *.py
 !snapshot.png
 !molecular-development.ipynb
+.DS_Store
