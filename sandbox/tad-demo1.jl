@@ -46,9 +46,9 @@ mlab.view(azimuth=15, elevation=95,
          distance=3.0*num,
          focalpoint=(num/2,num/2,num/2))
 mlab.savefig("images/temp.png", magnification = 2)
-#sleep(3.0)
+# sleep(3.0)
 
-;convert "images/temp.png" -trim +repage "images/image-015-095.png"
+run(`convert images/temp.png -trim +repage images/image-015-095.png`)
 
 mlab.view(azimuth=30, elevation=95,
          distance=3.0*num,
@@ -56,6 +56,4 @@ mlab.view(azimuth=30, elevation=95,
 mlab.savefig("images/temp.png", magnification = 2)
 #sleep(3.0)
 
-;convert "images/temp.png" -trim +repage "images/image-030-095.png"
-
-
+run(`convert images/temp.png -trim +repage images/image-030-095.png`)
